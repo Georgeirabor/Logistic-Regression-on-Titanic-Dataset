@@ -35,6 +35,9 @@ Some additional points explored include:
 
 1. **Initial Data Review**:
    - Using Python's Pandas library, the data was loaded to review its structure and identify missing or inconsistent values.
+   
+![import](https://github.com/user-attachments/assets/6a6f8b13-a4cb-4a8f-8c6f-4ed4e6300525)
+
 
 2. **Handling Missing Data**:
    - **Age**: Missing age values were filled in with the median age of the passengers:  
@@ -45,6 +48,9 @@ Some additional points explored include:
 
 3. **Categorical Data Encoding**:
    - Categorical variables such as Sex and Embarked were converted to numerical values through categorical encoding to prepare the data for modeling.
+   - 
+![category](https://github.com/user-attachments/assets/1cacefb7-0dfa-4aa2-802b-1b7202d5847a)
+
 
 ### Preparing Data for the Model
 
@@ -60,8 +66,14 @@ The dataset was divided into features (X) and the target variable (y), and then 
      model.fit(X_train, y_train)
      ```
 
+![model build](https://github.com/user-attachments/assets/b803b2f6-5647-40ae-b3dc-1e314abff791)
+
+
 2. **Model Evaluation**:
    - The model’s performance was assessed using metrics such as accuracy, a confusion matrix, and a classification report to evaluate its predictive capabilities.
+  
+![report](https://github.com/user-attachments/assets/edd3a64c-a21d-46a5-b0bb-71690b023db6)
+
 
 ### Conclusion and Recommendations
 
